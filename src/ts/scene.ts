@@ -34,7 +34,6 @@ export  class SceneManager{
         this.engine.runRenderLoop(()=>{
             this.scene.render();
         })
-        
     }
     dispose(){
         this.scene.dispose();
